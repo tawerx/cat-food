@@ -84,7 +84,7 @@ const Card = ({ title, taste, description, weight, portion, gift, available }) =
           <p>{description}.</p>
         ) : available && !selectCard ? (
           <p>
-            Чего сидишь, Порадуй котэ,{' '}
+            Чего сидишь? Порадуй котэ,{' '}
             <span
               className="buy"
               onClick={() => {
